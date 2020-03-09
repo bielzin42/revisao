@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0 auto;
+}
+
+body 
+{
+    width: 100%;   
+    background-image:image;
+    background-image: url('https://imagekit.io/static/img/newPages/homepage-wave-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.center
+{   
+    margin-top: 3em;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    background-color: #d6d6eba6;
+    padding-top: 4em;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.267);          
+}
+
+#obs 
+{
+    border-radius: 0.3em; 
+    resize: none;
+    border: none;
+}
+
+#botaoum
+{
+    margin-bottom: 10px; 
+    border-radius: 0.3em; 
+    width: 36.5%; 
+    background-image: linear-gradient(to right, blue, rgb(54, 54, 233), rgb(103, 93, 247));
+    border: 0px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.151);    
+    border: none;
+}
+
+#botaoum:hover
+{   
+    transition: 5s;  
+    background-image: linear-gradient(to right, blue, rgb(2, 2, 119), rgb(6, 2, 58));
+}
